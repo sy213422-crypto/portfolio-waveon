@@ -336,28 +336,5 @@ body {
   height: auto !important;
   object-fit: cover !important;
 }
-/* 网站加载加速 */
-img {
-  content-visibility: auto !important;
-  transform: translateZ(0) !important;
-  will-change: transform !important;
-}
-.portfolio-section {
-  content-visibility: auto !important;
-}
-/* 全网加速优化 */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  content-visibility: auto;
-}
-.portfolio-section {
-  content-visibility: auto;
-  contain: layout style;
-}
-.card {
-  contain: layout style;
-}
 
 
